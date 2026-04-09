@@ -5,8 +5,7 @@ import { usePathname } from "next/navigation";
 import { useSession, signOut } from "next-auth/react";
 
 const navItems = [
-  { href: "/", label: "Dashboard" },
-  { href: "/offboard", label: "Offboard User" },
+  { href: "/", label: "Offboard User" },
   { href: "/mailbox", label: "Shared Mailboxes" },
   { href: "/archive", label: "Archive Permissions" },
   { href: "/settings", label: "Settings" },
